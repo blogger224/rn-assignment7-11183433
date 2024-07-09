@@ -12,7 +12,7 @@ const CheckoutItem = ({ id, name, description, price, image }) => {
 
    
     return (
-        <View style={styles.container}>
+        <View style={styles.container}>                 
             <View>
                 <Image style={styles.image} source={image} />
             </View>
