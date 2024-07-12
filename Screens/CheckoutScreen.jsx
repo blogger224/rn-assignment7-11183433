@@ -46,7 +46,7 @@ const CheckoutScreen = ({ navigation }) => {
                     <View style={{ width: 130, backgroundColor: "gray", height: 0.5, alignItems: "center", marginVertical: 10, marginHorizontal: "auto" }} />
                 </View>
 
-                <CheckoutProduct />
+                <CheckoutProduct/>
             </ScrollView>
 
             <View style={[styles.footer]}>
